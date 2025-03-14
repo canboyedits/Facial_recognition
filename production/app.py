@@ -1,13 +1,11 @@
 import cv2
 import os
-import torch
 import dlib
 import sqlite3
 import numpy as np
 from ultralytics import YOLO
 import tkinter as tk
 from tkinter import simpledialog, messagebox, filedialog
-from PIL import Image, ImageTk
 
 # Define paths
 MODEL_DIR = os.path.join(os.path.dirname(__file__), 'models')

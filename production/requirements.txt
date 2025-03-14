@@ -1,0 +1,6 @@
+opencv-python
+numpy
+dlib
+tk
+ultralytics
+sqlite3
