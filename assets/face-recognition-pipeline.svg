@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="700" viewBox="0 0 1400 700">
+<rect width="1400" height="700" fill="#f7f9fc"/>
+<text x="70" y="90" font-family="Arial" font-size="44" font-weight="700" fill="#182235">Single-Image Face Recognition Pipeline</text>
+<text x="70" y="135" font-family="Arial" font-size="23" fill="#53627a">A compact learning project built around dlib face detection and embeddings</text>
+<defs><filter id="s"><feDropShadow dx="0" dy="8" stdDeviation="10" flood-opacity=".12"/></filter></defs>
+<g filter="url(#s)" font-family="Arial">
+<rect x="70" y="235" rx="24" width="235" height="235" fill="#ffffff"/>
+<rect x="360" y="235" rx="24" width="235" height="235" fill="#ffffff"/>
+<rect x="650" y="235" rx="24" width="235" height="235" fill="#ffffff"/>
+<rect x="940" y="235" rx="24" width="235" height="235" fill="#ffffff"/>
+<circle cx="187" cy="315" r="45" fill="#dce9ff"/><path d="M153 345h68v-76h-68z" fill="none" stroke="#276ef1" stroke-width="7"/><circle cx="175" cy="302" r="6" fill="#276ef1"/><circle cx="200" cy="302" r="6" fill="#276ef1"/><path d="M172 326q15 12 31 0" fill="none" stroke="#276ef1" stroke-width="5"/>
+<text x="187" y="403" text-anchor="middle" font-size="27" font-weight="700" fill="#182235">Reference image</text><text x="187" y="438" text-anchor="middle" font-size="19" fill="#53627a">One clear photo</text>
+<circle cx="477" cy="315" r="45" fill="#e8f7ef"/><rect x="445" y="283" width="64" height="64" rx="8" fill="none" stroke="#1f9d62" stroke-width="7"/><path d="M460 298h34M460 315h34M460 332h22" stroke="#1f9d62" stroke-width="6"/>
+<text x="477" y="403" text-anchor="middle" font-size="27" font-weight="700" fill="#182235">Detect &amp; align</text><text x="477" y="438" text-anchor="middle" font-size="19" fill="#53627a">Face box + landmarks</text>
+<circle cx="767" cy="315" r="45" fill="#fff1dc"/><path d="M729 315h76M741 292h52M741 338h52" stroke="#e28515" stroke-width="7"/><circle cx="738" cy="315" r="8" fill="#e28515"/><circle cx="797" cy="292" r="8" fill="#e28515"/><circle cx="775" cy="338" r="8" fill="#e28515"/>
+<text x="767" y="403" text-anchor="middle" font-size="27" font-weight="700" fill="#182235">128-D encoding</text><text x="767" y="438" text-anchor="middle" font-size="19" fill="#53627a">Compact facial signature</text>
+<circle cx="1057" cy="315" r="45" fill="#f1e7ff"/><path d="M1028 315l20 20 40-46" fill="none" stroke="#7a43c8" stroke-width="9"/>
+<text x="1057" y="403" text-anchor="middle" font-size="27" font-weight="700" fill="#182235">Compare</text><text x="1057" y="438" text-anchor="middle" font-size="19" fill="#53627a">Distance + threshold</text>
+</g>
+<path d="M305 352h55M595 352h55M885 352h55" stroke="#9aa7bb" stroke-width="7" marker-end="url(#a)"/>
+<defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0 0L8 3L0 6z" fill="#9aa7bb"/></marker></defs>
+<rect x="70" y="555" width="1105" height="70" rx="18" fill="#182235"/><text x="622" y="600" text-anchor="middle" font-family="Arial" font-size="25" fill="#fff">The project does not “learn” a person from scratch—it computes an embedding from one reference image and compares later faces against it.</text>
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="640" viewBox="0 0 1200 640">
+<rect width="1200" height="640" fill="#ffffff"/>
+<text x="60" y="75" font-family="Arial" font-size="40" font-weight="700" fill="#1e293b">How face matching works</text>
+<text x="60" y="115" font-family="Arial" font-size="21" fill="#64748b">Faces are mapped into an embedding space; nearby vectors are treated as more similar.</text>
+<circle cx="265" cy="325" r="155" fill="#eef4ff" stroke="#8eb3ff" stroke-width="3"/>
+<circle cx="240" cy="300" r="18" fill="#2563eb"/><circle cx="285" cy="350" r="18" fill="#2563eb"/><circle cx="320" cy="285" r="18" fill="#2563eb"/>
+<text x="265" y="515" text-anchor="middle" font-family="Arial" font-size="24" font-weight="700" fill="#1e293b">Same identity cluster</text>
+<circle cx="830" cy="325" r="155" fill="#fff2f2" stroke="#f3a5a5" stroke-width="3"/>
+<circle cx="760" cy="270" r="18" fill="#dc2626"/><circle cx="900" cy="390" r="18" fill="#dc2626"/><circle cx="855" cy="245" r="18" fill="#dc2626"/>
+<text x="830" y="515" text-anchor="middle" font-family="Arial" font-size="24" font-weight="700" fill="#1e293b">Different identities</text>
+<path d="M350 325h315" stroke="#475569" stroke-width="5" stroke-dasharray="12 12"/>
+<text x="508" y="295" text-anchor="middle" font-family="Arial" font-size="22" font-weight="700" fill="#334155">Embedding distance</text>
+<text x="508" y="355" text-anchor="middle" font-family="Arial" font-size="18" fill="#64748b">Smaller distance → stronger match</text>
+<rect x="245" y="565" width="710" height="45" rx="12" fill="#f1f5f9"/><text x="600" y="595" text-anchor="middle" font-family="Arial" font-size="19" fill="#334155">Thresholds are practical decisions, not guarantees of identity.</text>
+</svg>

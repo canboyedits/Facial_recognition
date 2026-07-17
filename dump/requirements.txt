@@ -1,7 +1,0 @@
-# requirements.txt
-streamlit
-opencv-python
-ultralytics
-deepface
-numpy
-Pillow
